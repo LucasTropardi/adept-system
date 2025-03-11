@@ -28,7 +28,8 @@
     "proj4": "2.12.1",
     "react": "18.3.1",
     "react-dom": "18.3.1",
-    "react-router-dom": "6.29.0"
+    "react-router-dom": "6.29.0",
+    "styled-components": "^6.1.15"
   },
   "devDependencies": {
     "@babel/preset-react": "7.26.3",
@@ -37,6 +38,7 @@
     "@rollup/pluginutils": "5.1.4",
     "@types/react": "18.3.18",
     "@types/react-dom": "18.3.5",
+    "@types/styled-components": "^5.1.34",
     "@vaadin/hilla-generator-cli": "24.6.6",
     "@vaadin/hilla-generator-core": "24.6.6",
     "@vaadin/hilla-generator-plugin-backbone": "24.6.6",
@@ -122,7 +124,7 @@
       "workbox-core": "7.3.0",
       "workbox-precaching": "7.3.0"
     },
-    "hash": "8e2736dcbe240ec0fc91623ea18f602e7aa7023a7dfe990e66d1bbaf3c7b6f50"
+    "hash": "f03cfa0c4eea6749c5a868ea6b95e433a4f2b7b28489fb54afccc46e24cf4258"
   },
   "overrides": {
     "@vaadin/bundles": "$@vaadin/bundles",
@@ -161,6 +163,7 @@
     "@vaadin/react-components-pro": "$@vaadin/react-components-pro",
     "@vaadin/vaadin-themable-mixin": "$@vaadin/vaadin-themable-mixin",
     "@vaadin/vaadin-lumo-styles": "$@vaadin/vaadin-lumo-styles",
-    "@vaadin/vaadin-material-styles": "$@vaadin/vaadin-material-styles"
+    "@vaadin/vaadin-material-styles": "$@vaadin/vaadin-material-styles",
+    "styled-components": "$styled-components"
   }
 }

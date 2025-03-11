@@ -9,7 +9,7 @@ export const config: ViewConfig = {
   loginRequired: true,
 };
 
-export default function HelloHillaView() {
+export function HelloHillaView() {
   const name = useSignal('');
 
   return (

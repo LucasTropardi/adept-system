@@ -10,10 +10,10 @@ export const config: ViewConfig = {
 
 const loginI18n: LoginI18n = {
   ...new LoginOverlayElement().i18n,
-  header: { title: 'Hilla Auth Starter', description: 'Login using user/user or admin/admin' },
+  header: { title: 'Hilla Auth Starter' },
 };
 
-export default function LoginView() {
+export function LoginView() {
   const { login } = useAuth();
   const loginError = useSignal(false);
 

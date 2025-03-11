@@ -1,8 +1,8 @@
-import { router } from 'Frontend/generated/routes.js';
-import { AuthProvider } from 'Frontend/util/auth';
-import { createElement } from 'react';
+import React from 'react';
 import { createRoot } from 'react-dom/client';
 import { RouterProvider } from 'react-router-dom';
+import { AuthProvider } from 'Frontend/util/auth';
+import { router } from './Routes';
 
 function App() {
   return (
@@ -12,7 +12,8 @@ function App() {
   );
 }
 
-const outlet = document.getElementById('outlet')!;
-let root = (outlet as any)._root ?? createRoot(outlet);
-(outlet as any)._root = root;
-root.render(createElement(App));
+const outlet = document.getElementById('outlet');
+if (outlet) {
+  const root = createRoot(outlet);
+  root.render(<App />);
+}
