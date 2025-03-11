@@ -1,8 +1,9 @@
-package com.example.application.services;
+package com.ltsoftwaresupport.adept.services;
 
-import com.example.application.data.User;
-import com.example.application.data.UserRepository;
+import com.ltsoftwaresupport.adept.data.User;
+import com.ltsoftwaresupport.adept.data.UserRepository;
 import java.util.Optional;
+
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.domain.Specification;

@@ -4,7 +4,7 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <!-- Project from https://start.vaadin.com/project/ada29e0d-1a9b-4fc9-ae49-88a1721dd058 -->
-    <groupId>com.example.application</groupId>
+    <groupId>com.ltsoftwaresupport.adept</groupId>
     <artifactId>adept-system</artifactId>
     <name>adept-system</name>
     <version>1.0-SNAPSHOT</version>
@@ -54,11 +54,10 @@
         </dependency>
 
         <dependency>
-            <groupId>com.h2database</groupId>
-            <artifactId>h2</artifactId>
-            <scope>runtime</scope>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.33</version>
         </dependency>
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
